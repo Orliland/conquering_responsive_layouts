@@ -18,19 +18,28 @@
 
 body {
   margin: 0;
+  padding: 32px 0;
   font-family: sans-serif;
+  background: #121212;
 }
 
 .container {
-  background: #23424a;
-  color: white;
+  background-color: #282828;
+
+  color: #8b8b8b;
 
   width: 80%;
   margin: 0 auto;
 
   padding: 2em;
+
+  border-radius: 20px;
 }
 
 .intro-content {
   width: 50%;
+}
+
+.intro-content h1 {
+  color: #fff;
 }
